@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
 ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'cyberpunk': ['Cyberpunk'],
+        'bebas': ['BebasNeue'],
+        'mont': ['Montserrat'],
+        'cyber': ['Cyber']
+      }
+    },
   },
   plugins: [],
 }
