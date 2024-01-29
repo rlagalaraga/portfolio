@@ -6,7 +6,7 @@ import { GrMysql } from "react-icons/gr";
 const Skills = () => {
   return (
     <>
-      <div className='w-full md:h-screen flex flex-col justify-center items-center text-[#D1C5C0] font-cyber bg-neutral-900'>
+      <div name='skills' className='w-full md:h-screen flex flex-col justify-center items-center text-[#D1C5C0] font-cyber bg-neutral-900'>
         <div className='mx-auto max-w-[1000px] w-full px-4 lg:px-0'>
           <h1 className='text-4xl font-bebas inline border-b-4 text-[#37EBF3] border-[#710000]'>Skills</h1>
           <p className='py-4 font-bold'>Technologies I've worked with</p>

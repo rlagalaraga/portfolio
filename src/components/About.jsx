@@ -4,7 +4,7 @@ import Typed from "react-typed"
 const About = () => {
   return (
     <>
-        <div className='text-[#D1C5C0] w-full h-screen bg-gradient-to-b from-black via-black to-neutral-900'>
+        <div name='about' className='text-[#D1C5C0] w-full h-screen bg-gradient-to-b from-black via-black to-neutral-900'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right pb-8 px-1'>
